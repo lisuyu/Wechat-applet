@@ -1,0 +1,21 @@
+<!--pages/list/list.wxml-->
+<import src="/pages/template/list-template.wxml"/>
+<view>
+  <swiper indicator-dots indicator-color="yellowgreen"
+  indicator-active-color="deeppink" circular="true">
+    <swiper-item>
+      <image src="/images/banner/01.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner/02.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner/03.png"></image>
+    </swiper-item>
+  </swiper>
+  <block wx:for='{{listArr}}' wx:key='{{index}}'>
+    <view>
+      <template is="listTmp" data='{{...item}}'/>
+    </view>
+  </block>
+</view>
