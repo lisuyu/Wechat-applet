@@ -1,0 +1,103 @@
+<!--pages/home/home.wxml-->
+<view class="homeContainer">
+<!-- 公告 -->
+  <view class="notic">
+    <view class="notice_icon">
+      <image src="/images/icon/notic.png"></image>
+    </view>
+    <view class="msg">
+      <text>公告：</text>
+      <scroll-view class="container">
+        <view class="scrolltxt">
+          <view class="marquee_box">
+            <view class="marquee_text" style="transform: translateX(-{{marqueeDistance}}px)">
+              <text>{{text}}</text>
+              <text style="margin-right:{{marquee_margin}}px;"></text>
+              <text style="margin-right:{{marquee_margin}}px;">{{text}}</text>        
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <!-- 主题内容 -->
+  <view class="content">
+  <!-- banner -->
+    <view class="banner">
+      <swiper indicator-dots indicator-color="yellowgreen"
+        indicator-active-color="deeppink" circular="true">
+        <swiper-item>
+          <image src="/images/banner/01.png"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src="/images/banner/02.png"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src="/images/banner/03.png"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+    <!-- 内容 -->
+    <view class="main">
+      <view class="types">
+          <view class="upper">
+            <view class="type">
+              <image src="/images/icon/img.png"></image>
+              <text>分类</text>
+            </view>
+            <view class="type">
+              <image src="/images/icon/img.png"></image>
+              <text>分类</text>
+            </view>
+            <view class="type">
+              <image src="/images/icon/img.png"></image>
+              <text>分类</text>
+            </view>
+            <view class="type">
+              <image src="/images/icon/img.png"></image>
+              <text>分类</text>
+            </view>
+            <view class="type">
+              <image src="/images/icon/img.png"></image>
+              <text>分类</text>
+            </view>
+          </view>
+          <view class="lower">
+            <view class="type">
+              <image src="/images/icon/img.png"></image>
+              <text>分类</text>
+            </view>
+            <view class="type">
+              <image src="/images/icon/img.png"></image>
+              <text>分类</text>
+            </view>
+            <view class="type">
+              <image src="/images/icon/img.png"></image>
+              <text>分类</text>
+            </view>
+            <view class="type">
+              <image src="/images/icon/img.png"></image>
+              <text>分类</text>
+            </view>
+            <view class="type">
+              <image src="/images/icon/img.png"></image>
+              <text>分类</text>
+            </view>
+          </view>
+      </view>
+      <view class="selection">
+        <view>
+        <!-- 图片大小：300*100 -->
+          <image src="/images/icon/goods1.png"></image>
+        </view>
+        <view>
+          <image src="/images/icon/goods2.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 底部 -->
+  <view class="buttom">
+  </view>
+</view>
+<!-- 页面宽度为320px -->
