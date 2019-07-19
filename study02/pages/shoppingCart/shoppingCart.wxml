@@ -1,0 +1,11 @@
+<!--pages/shoppingCart/shoppingCart.wxml-->
+<view class="shoppingCartPage">
+  <view class="list">
+      <view class="goodsInfo">
+      <text class="goods_name">货物的名字</text>
+      <text class="goods_price">货物的价格</text>
+    </view>
+    <image class="goods_img" src="/images/icon/img.png"></image>
+  </view>
+      <view class="Settlement">结算</view>
+</view>

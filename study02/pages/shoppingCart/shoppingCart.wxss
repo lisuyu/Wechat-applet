@@ -1,0 +1,48 @@
+/* pages/shoppingCart/shoppingCart.wxss */
+.shoppingCartPage{
+  display: flex;
+  padding: 20rpx
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 160rpx;
+  background-color: pink;
+  border: 2rpx solid black;
+  border-radius: 50rpx;
+}
+.goods_img{
+  width: 128rpx;
+  height: 129rpx;
+  /* float: right */
+  position: absolute;
+  right: 0rpx;
+  padding: 10rpx;
+  margin-right: 20rpx;
+  border-radius: 20rpx;
+}
+.goodsInfo{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  padding: 20rpx;
+}
+.goods_name{
+  font-size: 32rpx;
+  color: #000;
+}
+.goods_price{
+  font-size: 28rpx;
+  color: #666;
+  margin: 8rpx 0ex;
+}
+
+.Settlement{
+  position: absolute;
+  right: 0rpx;
+  bottom: 0rpx;
+  width: 200rpx;
+  height: 70rpx;
+  background-color: skyblue
+}

@@ -1,0 +1,47 @@
+<!--pages/mine/mine.wxml-->
+<view class="mine">
+  <view class="top">
+    <view class="avatar_img">
+      <image src="/images/icon/img.png"></image>
+    </view>
+    <view class="avatar_name">锋少</view>
+  </view>
+  <view class="content">
+    <view class="order">
+      <view class="left_img">
+        <image src="/images/icon/img.png"></image>
+      </view>
+      <text>我的订单</text>
+      <image class="right_img">
+        <image src="/images/icon/arrow-right.png"></image>
+      </image>
+    </view>
+    <view class="order">
+      <view class="left_img">
+        <image src="/images/icon/img.png"></image>
+      </view>
+      <text>收货地址</text>
+      <image class="right_img">
+        <image src="/images/icon/arrow-right.png"></image>
+      </image>
+    </view>
+    <view class="order">
+      <view class="left_img">
+        <image src="/images/icon/img.png"></image>
+      </view>
+      <text>关于我们</text>
+      <image class="right_img">
+        <image src="/images/icon/arrow-right.png"></image>
+      </image>
+    </view>
+    <view class="order">
+      <view class="left_img">
+        <image src="/images/icon/img.png"></image>
+      </view>
+      <text>联系我们</text>
+      <image class="right_img">
+        <image src="/images/icon/arrow-right.png"></image>
+      </image>
+    </view>
+  </view>
+</view>

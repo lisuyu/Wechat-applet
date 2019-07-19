@@ -1,0 +1,86 @@
+/* pages/home/home.wxss */
+.homeContainer{
+  display: flax;
+  flex-direction: column
+}
+.notic image{
+  width: 60rpx;
+  height: 60rpx;
+  padding-top: 20rpx;
+  float: left;
+  margin-left: 10rpx
+}
+.msg{
+  padding-top: 20rpx;
+  float: left
+}
+
+
+.container {
+  width: 550rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  float: right
+}
+.scrolltxt{
+  /* padding:0 10rpx; */
+  background:#f8f8f8;
+}
+.marquee_box {
+  position:relative;
+  color:#333;
+  height:70rpx;
+  display:block;
+  overflow:hidden;} 
+.marquee_text {
+  white-space: nowrap;
+  position:absolute;
+  top:0;
+  font-size:14px;
+  height:90rpx;
+  line-height:60rpx;
+}
+
+swiper{
+  width: 100%;
+  height: 400rpx;
+}
+
+swiper image {
+  width: 100%;
+  height: 100%;
+}
+
+.main{
+  margin-top: 100rpx;
+}
+
+.upper{
+  height: 200rpx;
+  /* background-color: pink; */
+}
+.type{
+  width: 128rpx;
+  /* background-color: red; */
+  float: left;
+  margin-left: 20rpx
+}
+.type image{
+  width: 128rpx;
+  height: 128rpx;
+}
+.type text{
+  margin-left: 20rpx;
+}
+.lower{
+  height: 200rpx;
+  /* background-color: skyblue; */
+}
+.selection image{
+  width: 700rpx;
+  height: 200rpx;
+  margin-left: 30rpx;
+}
